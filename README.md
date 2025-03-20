@@ -1,4 +1,4 @@
-# DRF orjson renderer and parse
+# DRF orjson renderer and parser
 
 [![CI](https://github.com/ArtemIsmagilov/drf_orjson_rp/actions/workflows/ci.yaml/badge.svg)](https://github.com/ArtemIsmagilov/drf_orjson_rp/actions/workflows/ci.yaml)
 [![Upload Python Package](https://github.com/ArtemIsmagilov/drf_orjson_rp/actions/workflows/python-publish.yml/badge.svg)](https://github.com/ArtemIsmagilov/drf_orjson_rp/actions/workflows/python-publish.yml)
