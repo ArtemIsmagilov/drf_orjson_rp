@@ -11,14 +11,18 @@ class ORJSONRenderer(BaseRenderer):
     Renderer which serializes to JSON.
     Rendering with orjson.
 
+    # Example
+
     >>> ORJSONRenderer().render(None) == b""
     True
     >>> ORJSONRenderer().render({}) == b"{}"
     True
-    >>> api_settings.user_settings["ORJSON_RENDERER_OPTION"] = orjson.OPT_APPEND_NEWLINE
+    >>> api_settings.user_settings["ORJSON_RENDERER_OPTION"] = (
+    ...     orjson.OPT_APPEND_NEWLINE
+    ... )
     >>> ORJSONRenderer().render({}) == b"{}\\n"
     True
-    """  # noqa: E501
+    """
 
     media_type = "application/json"
     format = "json"

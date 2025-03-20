@@ -10,6 +10,9 @@ class ORJSONParser(BaseParser):
     """
     Parses JSON-serialized data.
     Parsing with orjson.
+
+    # Example
+
     >>> ORJSONParser().parse(BytesIO(b"{}")) == {}
     True
     >>> ORJSONParser().parse(BytesIO(b"wrong"))
