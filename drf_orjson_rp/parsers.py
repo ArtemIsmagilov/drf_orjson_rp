@@ -1,4 +1,5 @@
 from io import BytesIO
+from typing import Optional
 
 import orjson
 from rest_framework import renderers
@@ -23,8 +24,8 @@ class ORJSONParser(BaseParser):
     def parse(
         self,
         stream: BytesIO,
-        media_type: str | None = None,
-        parser_context: dict | None = None,
+        media_type: Optional[str] = None,
+        parser_context: Optional[dict] = None,
     ):
         """
         Parses the incoming bytestream as JSON and returns the resulting data.
