@@ -23,6 +23,6 @@ jobs:
       - name: Install dependencies
         run: uv pip install --group dev .
       - name: Run linters
-        run: bash scripts/lint.sh
+        run: bash scripts/lint.bash
       - name: Run tests
-        run: bash scripts/test.sh
+        run: bash scripts/test.bash
