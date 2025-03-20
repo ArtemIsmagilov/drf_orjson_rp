@@ -53,6 +53,12 @@ Made on example drf_orjson_renderer package.
   bash scripts/lint.bash
   ```
 
+- Run test coverage
+
+  ```bash
+  bash scripts/coverage.bash
+  ```
+
 ## Links
 
 - [drf_ujson_renderer](https://github.com/gizmag/drf-ujson-renderer)
