@@ -5,6 +5,12 @@ Made on example drf_orjson_renderer package.
 
 ## Installation
 
+- Install package
+
+  ```bash
+  pip install drf_orjson_rp
+  ```
+
 - Rewrite settings by example.
 
   ```python
@@ -33,6 +39,20 @@ Made on example drf_orjson_renderer package.
   - [DRF Parser](https://github.com/encode/django-rest-framework/blob/master/rest_framework/parsers.py)
 
 ## Developing
+
+- Clone your fork and cd into the repo directory
+
+```bash
+  git clone git@github.com:<your username>/drf_orjson_rp.git
+  cd drf_orjson_rp
+```
+
+- Create a virtual environment
+
+  ```bash
+  python3 -m venv .venv
+  source .venv/bin/activate
+  ```
 
 - Install uv and dev dependencies
 
@@ -64,3 +84,5 @@ Made on example drf_orjson_renderer package.
 - [drf_ujson_renderer](https://github.com/gizmag/drf-ujson-renderer)
 - [drf_orjson_renderer](https://github.com/brianjbuck/drf_orjson_renderer)
 - [DRF stubs](https://github.com/typeddjango/djangorestframework-stubs)
+- [pydantic workflows](https://github.com/pydantic/pydantic/blob/main/.github/workflows/ci.yml)
+- [fastapi scripts](https://github.com/fastapi/fastapi/tree/master/scripts)
