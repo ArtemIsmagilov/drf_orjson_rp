@@ -23,9 +23,6 @@ jobs:
       - name: Install dependencies
         run: uv pip install --group dev .
       - name: Run linters
-        run: |
-          basedpyright
-          ruff check
-          ruff format --check
+        run: bash scripts/lint.sh
       - name: Run tests
-        run: python -m tests.doc_test -v
+        run: bash scripts/test.sh
