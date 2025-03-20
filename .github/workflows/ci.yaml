@@ -14,6 +14,8 @@ jobs:
         python-version: [3.9, 3.10, 3.11, 3.12, 3.13]
     name: Runnig tests on Python ${{ matrix.python-version }}
     steps:
+      - name: Checkout Source
+        uses: actions/checkout@v4
       - name: Setup uv
         uses: astral-sh/setup-uv@v5
         with:
