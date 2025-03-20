@@ -3,8 +3,6 @@ from typing import Any
 import orjson
 from rest_framework.renderers import BaseRenderer
 from rest_framework.settings import api_settings
-
-
 from rest_framework.utils import encoders
 
 
