@@ -44,7 +44,7 @@ Made on example drf_orjson_renderer package.
 - Run tests
 
   ```bash
-    bash scripts/test.bash
+  bash scripts/test.bash
   ```
 
 - Run linters
