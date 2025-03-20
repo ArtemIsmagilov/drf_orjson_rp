@@ -11,3 +11,6 @@ _build/
 # Python bytecode and cache files
 __pycache__/
 
+# Benchmark and test files
+.coverage
+

@@ -33,7 +33,7 @@ classifiers = [
 Repository = "https://github.com/ArtemIsmagilov/drf_orjson_rp.git"
 
 [dependency-groups]
-dev = ["ruff", "basedpyright"]
+dev = ["ruff", "basedpyright", "coverage"]
 
 [tool.ruff]
 line-length = 79

@@ -26,3 +26,5 @@ jobs:
         run: bash scripts/lint.bash
       - name: Run tests
         run: bash scripts/test.bash
+      - name: Run coverage
+        run: bash scripts/coverage.bash
