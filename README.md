@@ -32,11 +32,26 @@ Made on example drf_orjson_renderer package.
   - [DRF Renderer](https://github.com/encode/django-rest-framework/blob/master/rest_framework/renderers.py)
   - [DRF Parser](https://github.com/encode/django-rest-framework/blob/master/rest_framework/parsers.py)
 
-## Testing
+## Developing
 
-```python
-python -m tests.doc_test -v
-```
+- Install uv and dev dependencies
+
+  ```bash
+  pip install uv
+  bash scripts/install.bash
+  ```
+
+- Run tests
+
+  ```bash
+    bash scripts/test.bash
+  ```
+
+- Run linters
+
+  ```bash
+  bash scripts/lint.bash
+  ```
 
 ## Links
 
