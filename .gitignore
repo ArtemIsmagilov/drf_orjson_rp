@@ -13,4 +13,5 @@ __pycache__/
 
 # Benchmark and test files
 .coverage
+htmlcov/
 
