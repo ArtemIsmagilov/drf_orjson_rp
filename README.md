@@ -46,8 +46,8 @@ Made on example drf_orjson_renderer package.
 - Clone your fork and cd into the repo directory
 
   ```bash
-    git clone git@github.com:<your username>/drf_orjson_rp.git
-    cd drf_orjson_rp
+  git clone git@github.com:<your username>/drf_orjson_rp.git
+  cd drf_orjson_rp
   ```
 
 - Create a virtual environment
