@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "drf-orjson-rp"
-version = "0.2.0"
+version = "0.3.0"
 dependencies = ["djangorestframework>=3.15.2", "orjson>=3.10.15"]
 requires-python = ">=3.9"
 description = "DRF renderer and parser based on orjson"
