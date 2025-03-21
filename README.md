@@ -3,6 +3,7 @@
 [![CI](https://github.com/ArtemIsmagilov/drf_orjson_rp/actions/workflows/ci.yaml/badge.svg)](https://github.com/ArtemIsmagilov/drf_orjson_rp/actions/workflows/ci.yaml)
 [![Upload Python Package](https://github.com/ArtemIsmagilov/drf_orjson_rp/actions/workflows/python-publish.yml/badge.svg)](https://github.com/ArtemIsmagilov/drf_orjson_rp/actions/workflows/python-publish.yml)
 [![pypi](https://img.shields.io/pypi/v/drf-orjson-rp.svg)](https://pypi.python.org/pypi/drf-orjson-rp)
+[![versions](https://img.shields.io/pypi/pyversions/drf_orjson_rp.svg)](https://github.com/ArtemIsmagilov/drf_orjson_rp)
 
 Rendering and parsing JSON with orjson.
 Made on example drf_orjson_renderer package.
