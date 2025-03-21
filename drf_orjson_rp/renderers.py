@@ -50,6 +50,6 @@ class ORJSONRenderer(BaseRenderer):
 
         return orjson.dumps(
             data,
-            default=self.encoder_class().default,
-            option=option,
+            self.encoder_class().default,
+            option,
         )
