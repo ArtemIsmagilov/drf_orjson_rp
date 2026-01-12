@@ -1,0 +1,26 @@
+repos:
+  - repo: local
+    hooks:
+      - id: ruff-check
+        name: ruff-check
+        entry: ruff check
+        language: unsupported
+        types: [python]
+      - id: ruff-format
+        name: ruff-format
+        entry: ruff format --check
+        language: unsupported
+        types: [python]
+      - id: basedpyright-check
+        name: basedpyright-check
+        entry: basedpyright
+        language: unsupported
+        types: [python]
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: check-yaml
+      - id: check-toml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
