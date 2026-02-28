@@ -1,4 +1,4 @@
-from typing import Any, Optional
+from typing import Any
 
 import orjson
 from rest_framework.renderers import BaseRenderer
@@ -37,8 +37,8 @@ class ORJSONRenderer(BaseRenderer):
     def render(
         self,
         data: Any,
-        accepted_media_type: Optional[str] = None,
-        renderer_context: Optional[dict] = None,
+        accepted_media_type: str | None = None,
+        renderer_context: dict | None = None,
     ) -> bytes:
         """
         Render `data` into JSON, returning a bytestring.

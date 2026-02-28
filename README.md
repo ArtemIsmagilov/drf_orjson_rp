@@ -22,12 +22,14 @@ Made on example drf_orjson_renderer package.
   REST_FRAMEWORK = {
       'DEFAULT_RENDERER_CLASSES': [
           # replace default json on orjson renderer
+          # 'rest_framework.renderers.JSONRenderer',
           'drf_orjson_rp.renderers.ORJSONRenderer',
           # defaults
           'rest_framework.renderers.BrowsableAPIRenderer',
       ],
       'DEFAULT_PARSER_CLASSES': [
           # replace default json on orjson parser
+          # 'rest_framework.parsers.JSONParser',
           'drf_orjson_rp.parsers.ORJSONParser',
           # defaults
           'rest_framework.parsers.FormParser',
